@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             totalPrice += item.price * item.quantity;
             const itemElement = document.createElement('div');
             itemElement.classList.add('cart-item');
-            itemElement.textContent = `${item.name} - Quantity: ${item.quantity} - Price per item: $${item.price}`;
+            itemElement.textContent = `${item.name} - Quantity: ${item.quantity} - Price per item: ${item.price} SEK`;
             // Add and Remove buttons
             const addButton = document.createElement('button');
             addButton.textContent = '+';
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cartElement.appendChild(itemElement);
         });
         const totalPriceElement = document.createElement('div');
-        totalPriceElement.textContent = `Total Price: $${totalPrice}`;
+        totalPriceElement.textContent = `Total Price: ${totalPrice} SEK`;
         cartElement.appendChild(totalPriceElement);
     }
 
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Product Name and Price
         const nameElement = document.createElement('h4');
-        nameElement.textContent = `${product.name} - $${product.price}`;
+        nameElement.textContent = `${product.name} - ${product.price} SEK`;
         productElement.appendChild(nameElement);
         
         // Product Description
