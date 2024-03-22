@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const products = [
-        { id: 1, name: 'Tee LS, T-shirt - Off White', price: 10, description: 'T-shirt with long sleeves and buttons. High quality and good fit.', image: '1.jpg' },
-        { id: 2, name: 'Tee LS, T-shirt - Rose', price: 15, description: 'T-shirt with long sleeves and buttons. High quality and good fit.', image: '2.jpg' },
-        { id: 3, name: 'Tee LS, T-shirt - Pale Blue', price: 15, description: 'T-shirt with long sleeves and buttons. High quality and good fit.', image: '3.jpg' },
-        { id: 4, name: 'Tee LS, T-shirt - Blue', price: 15, description: 'T-shirt with long sleeves and buttons. High quality and good fit.', image: '4.jpg' },
-        { id: 5, name: 'Tee LS, T-shirt - Grey Melange', price: 15, description: 'T-shirt with long sleeves and buttons. High quality and good fit.', image: '5.jpg' },
-        { id: 6, name: 'Plain Body LS, Bodystocking - Rose/Grey Melange', price: 20, description: 'Body with long sleeves in a soft quality with a good fit. Pushbuttons for easy changing.', image: '6.jpg' },
+        { id: 1, name: 'Tee LS T-shirt - Off White', price: 10, description: 'T-shirt with long sleeves and buttons. High quality and good fit.', image: '1.jpg' },
+        { id: 2, name: 'Tee LS T-shirt - Rose', price: 15, description: 'T-shirt with long sleeves and buttons. High quality and good fit.', image: '2.jpg' },
+        { id: 3, name: 'Tee LS T-shirt - Pale Blue', price: 15, description: 'T-shirt with long sleeves and buttons. High quality and good fit.', image: '3.jpg' },
+        { id: 4, name: 'Tee LS T-shirt - Blue', price: 15, description: 'T-shirt with long sleeves and buttons. High quality and good fit.', image: '4.jpg' },
+        { id: 5, name: 'Tee LS T-shirt - Grey Melange', price: 15, description: 'T-shirt with long sleeves and buttons. High quality and good fit.', image: '5.jpg' },
+        { id: 6, name: 'Plain Body LS Bodystocking - Rose/Grey Melange', price: 20, description: 'Body with long sleeves in a soft quality with a good fit. Pushbuttons for easy changing.', image: '6.jpg' },
 
     ];
     const cart = [];
