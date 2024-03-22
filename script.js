@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const products = [
-        { id: 1, name: 'Product 1', price: 10, description: 'Description for Product 1', image: 'images/1.jpg' },
-        { id: 2, name: 'Product 2', price: 20, description: 'Description for Product 2', image: 'images/2.jpg' },
-        { id: 3, name: 'Product 3', price: 30, description: 'Description for Product 3', image: 'images/3.jpg' },
-        { id: 4, name: 'Product 4', price: 40, description: 'Description for Product 4', image: 'images/4.jpg' },
-        { id: 5, name: 'Product 5', price: 50, description: 'Description for Product 5', image: 'images/5.jpg' },
-        { id: 6, name: 'Product 5', price: 50, description: 'Description for Product 5', image: 'images/6.jpg' },
+        { id: 1, name: 'Product 1', price: 10, description: 'Description for Product 1', image: '1.jpg' },
+        { id: 2, name: 'Product 2', price: 20, description: 'Description for Product 2', image: '2.jpg' },
+        { id: 3, name: 'Product 3', price: 30, description: 'Description for Product 3', image: '3.jpg' },
+        { id: 4, name: 'Product 4', price: 40, description: 'Description for Product 4', image: '4.jpg' },
+        { id: 5, name: 'Product 5', price: 50, description: 'Description for Product 5', image: '5.jpg' },
+        { id: 6, name: 'Product 6', price: 60, description: 'Description for Product 6', image: '6.jpg' },
 
     ];
     const cart = [];
