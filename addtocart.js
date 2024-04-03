@@ -25,13 +25,13 @@ const product = [
     },
     {
         id: 4,
-        image: 'img/p5.JPG',
+        image: 'img/p5.jpg',
         title: 'Rachel Blouse Coral',
         price: 50,
     },
     {
         id: 5,
-        image: 'img/p6.JPG',
+        image: 'img/p6.jpg',
         title: 'Rachel Short Coral',
         price: 40,
     },
