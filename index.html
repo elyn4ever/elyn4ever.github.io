@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Shopping Cart</title>
-    <link rel="stylesheet" href="style.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVGX0Z57WE"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-DVGX0Z57WE');
-    </script>
-</head>
-<body>
-    <h2>Products</h2>
-    <div id="products"></div>
-    <h2>Shopping Cart</h2>
-    <div id="cart"></div>
-
-    <script src="script.js"></script>
-</body>
+    <head>
+        <link rel="stylesheet" href="addtocart.css">
+        <script src="https://kit.fontawesome.com/427454ffc0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <p class="logo">Tillsammans</p>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i><p id="count">0</p></div>
+        </div>
+        <div class="container">
+            <div id="root"></div>
+            <div class="sidebar">
+                <div class="head"><p>My Cart</p></div>
+                <div id="cartItem">Your cart is empty</div>
+                <div class="foot">
+                    <h3>Total</h3>
+                    <h2 id="total">$ 0.00</h2>
+                </div>
+            </div>
+        </div>
+        <script src="addtocart.js"></script>
+    </body>
 </html>
